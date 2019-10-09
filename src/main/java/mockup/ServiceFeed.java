@@ -28,6 +28,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "mauricio");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/mauricio/128?ssl=1");
+        j.put("local", "Los Angeles");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Dia de Chuva");
         j.put("image", "https://mockup.fluo.site/images/1.png");
@@ -51,6 +52,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "gustavo");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/gustavo/128?ssl=1");
+        j.put("local", "Diamond");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Really enjoyed the movie");
         j.put("image", "https://mockup.fluo.site/images/2.png");
@@ -71,6 +73,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "carolina");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carolina/128?ssl=1");
+        j.put("local", "São Paulo");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Entardecer");
         j.put("image", "https://mockup.fluo.site/images/3.png");
@@ -89,6 +92,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "maria");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carolina/128?ssl=1");
+        j.put("local", "NY");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Photo by @awwnuhh42");
         j.put("image", "https://mockup.fluo.site/images/4.png");
@@ -115,7 +119,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "carlos");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carlosroberto/128?ssl=1");
-
+        j.put("local", "Sapiens Parque");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Sapiens Parque");
         j.put("image", "https://mockup.fluo.site/images/5.png");
@@ -138,7 +142,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "carlos");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carlosroberto/128?ssl=1");
-
+        j.put("local", "Nova Suissa");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Setup");
         j.put("image", "https://mockup.fluo.site/images/6.png");
@@ -172,6 +176,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "dronebh");
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/dronebh/128?ssl=1");
+        j.put("local", "Belo Horizonte");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "O Cine Theatro Brasil, atualmente chamado Cine Theatro Brasil Vallourec, é um prédio histórico de Belo Horizonte");
         j.put("image", "https://mockup.fluo.site/images/7.png");
@@ -203,6 +208,9 @@ public class ServiceFeed extends ServiceBase {
 
         j = new JSONObject();
         j.put("id", Guid.getString());
+        j.put("user", "guilherme");
+        j.put("local", "Belo Horizonte");
+        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/dronebh/128?ssl=1");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Alguém sabe onde a foto foi tirada");
         j.put("image", "https://mockup.fluo.site/images/8.png");
