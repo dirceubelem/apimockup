@@ -5,11 +5,13 @@ import org.json.JSONObject;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 
 @Path("feed")
 public class ServiceFeed extends ServiceBase {
 
     @GET
+    @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
     public String feed() {
         JSONArray ja = new JSONArray();
 
