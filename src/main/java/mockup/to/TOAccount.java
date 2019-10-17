@@ -37,6 +37,6 @@ public class TOAccount {
 
     public void setPassword(String password) {
         this.password = password;
-    }≈
+    }
 
 }
