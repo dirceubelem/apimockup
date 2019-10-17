@@ -113,7 +113,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Los Angeles");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Dia de Chuva");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("alexey-sviridkin-VXb42m0uM3s-unsplash"));
@@ -146,7 +146,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Really enjoyed the movie");
 
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("cristina-gottardi-E5UPWEIjvB8-unsplash"));
@@ -178,7 +178,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Entardecer");
 
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/ingmar-hoogerhoud-xsGE8wePfeA-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("ingmar-hoogerhoud-xsGE8wePfeA-unsplash"));
@@ -205,7 +205,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "NY");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Photo by @awwnuhh42");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/iva-s-lPnRIpkZnEk-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("iva-s-lPnRIpkZnEk-unsplash"));
@@ -242,7 +242,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Sapiens Parque");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Sapiens Parque");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/jeremy-bishop-AXMEntgTSpM-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("jeremy-bishop-AXMEntgTSpM-unsplash"));
@@ -273,7 +273,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Nova Suissa");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Setup");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/milkovi-1MSHtu4pkBM-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("milkovi-1MSHtu4pkBM-unsplash"));
@@ -313,7 +313,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Belo Horizonte");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "O Cine Theatro Brasil, atualmente chamado Cine Theatro Brasil Vallourec, é um prédio histórico de Belo Horizonte");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/sammy-joonhee-jkANttf0x1A-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("sammy-joonhee-jkANttf0x1A-unsplash"));
@@ -352,7 +352,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("avatar", "https://mockup.fluo.site/avatar/7.png");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Alguém sabe onde a foto foi tirada");
-        j.put("image", "");
+        j.put("image", "https://mockup.fluo.site/images/the-honest-company-Ua9AK-pZ5cw-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("the-honest-company-Ua9AK-pZ5cw-unsplash"));
