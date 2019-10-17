@@ -11,6 +11,57 @@ import javax.ws.rs.Produces;
 public class ServiceFeed extends ServiceBase {
 
     @GET
+    @Path("prova")
+    @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
+    public String feedProva() {
+        JSONArray ja = new JSONArray();
+
+        JSONObject j;
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-Grh1pGOrxuE-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-KAkljqqXdKs-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/christiann-koepke-XersifI0JCk-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/daniel-thiele-MG4ap7OlC0w-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/francisco-delgado-pp4krOAi1Rc-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/gin-z-fDkXxoiUy6Q-unsplash.jpg");
+        ja.put(j);
+
+        j = new JSONObject();
+        j.put("imagem", "https://mockup.fluo.site/images/harley-davidson-9yx3FyexTOU-unsplash.jpg");
+        ja.put(j);
+
+        return ja.toString();
+    }
+
+    @GET
     @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
     public String feed() {
         JSONArray ja = new JSONArray();
@@ -24,6 +75,8 @@ public class ServiceFeed extends ServiceBase {
         f.put("Carolina");
         f.put("Henrique");
 
+        JSONArray g;
+
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "mauricio");
@@ -31,7 +84,15 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Los Angeles");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Dia de Chuva");
-        j.put("image", "https://mockup.fluo.site/images/1.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("alexey-sviridkin-VXb42m0uM3s-unsplash"));
+        g.put(addGalery("anita-austvika-Grh1pGOrxuE-unsplash"));
+        g.put(addGalery("anita-austvika-KAkljqqXdKs-unsplash"));
+        g.put(addGalery("christiann-koepke-XersifI0JCk-unsplash"));
+        j.put("gallery", g);
+
         j.put("likes", f);
 
         ja.put(j);
@@ -55,7 +116,18 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Diamond");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Really enjoyed the movie");
-        j.put("image", "https://mockup.fluo.site/images/2.png");
+
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("cristina-gottardi-E5UPWEIjvB8-unsplash"));
+        g.put(addGalery("daniel-thiele-MG4ap7OlC0w-unsplash"));
+        g.put(addGalery("francisco-delgado-pp4krOAi1Rc-unsplash"));
+        g.put(addGalery("gin-z-fDkXxoiUy6Q-unsplash"));
+        g.put(addGalery("harley-davidson-9yx3FyexTOU-unsplash"));
+        j.put("gallery", g);
+
+
         j.put("likes", f);
 
         ja.put(j);
@@ -76,7 +148,16 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "São Paulo");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Entardecer");
-        j.put("image", "https://mockup.fluo.site/images/3.png");
+
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("ingmar-hoogerhoud-xsGE8wePfeA-unsplash"));
+        g.put(addGalery("irena-carpaccio-nE0flkzTXxg-unsplash"));
+        g.put(addGalery("irena-carpaccio-p6hzGvEXSoQ-unsplash"));
+        g.put(addGalery("irena-carpaccio-SkI7RNk_t00-unsplash"));
+        j.put("gallery", g);
+
         j.put("likes", f);
 
         ja.put(j);
@@ -95,7 +176,17 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "NY");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Photo by @awwnuhh42");
-        j.put("image", "https://mockup.fluo.site/images/4.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("iva-s-lPnRIpkZnEk-unsplash"));
+        g.put(addGalery("jeffrey-grospe-P6I0OeIg8fg-unsplash"));
+        g.put(addGalery("jeremy-bishop-2pQKwi5r2Yg-unsplash"));
+        g.put(addGalery("jeremy-bishop-4la1HJ77U3Q-unsplash"));
+        g.put(addGalery("jeremy-bishop-6AJC3L02OMc-unsplash"));
+        g.put(addGalery("jeremy-bishop-7qplxRQbz34-unsplash"));
+        j.put("gallery", g);
+
         j.put("likes", f);
 
         ja.put(j);
@@ -122,7 +213,15 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Sapiens Parque");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Sapiens Parque");
-        j.put("image", "https://mockup.fluo.site/images/5.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("jeremy-bishop-AXMEntgTSpM-unsplash"));
+        g.put(addGalery("jeremy-bishop-d5YBTPgD-W0-unsplash"));
+        g.put(addGalery("jeremy-bishop-hYdZ9PsWd-U-unsplash"));
+        g.put(addGalery("julieta-christy-nFVf1c91750-unsplash"));
+        g.put(addGalery("marcus-lenk-v-8P5fepcC8-unsplash"));
+        j.put("gallery", g);
         j.put("likes", f);
 
         ja.put(j);
@@ -145,7 +244,13 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Nova Suissa");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Setup");
-        j.put("image", "https://mockup.fluo.site/images/6.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("milkovi-1MSHtu4pkBM-unsplash"));
+        g.put(addGalery("milkovi-Kp3B7GnvFD0-unsplash"));
+        g.put(addGalery("moises-alex-RAah-FB0kpk-unsplash"));
+        j.put("gallery", g);
         j.put("likes", f);
 
         ja.put(j);
@@ -179,7 +284,12 @@ public class ServiceFeed extends ServiceBase {
         j.put("local", "Belo Horizonte");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "O Cine Theatro Brasil, atualmente chamado Cine Theatro Brasil Vallourec, é um prédio histórico de Belo Horizonte");
-        j.put("image", "https://mockup.fluo.site/images/7.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("sammy-joonhee-jkANttf0x1A-unsplash"));
+        g.put(addGalery("the-honest-company-r8Q_2nr9Rbg-unsplash"));
+        j.put("gallery", g);
         j.put("likes", f);
 
         ja.put(j);
@@ -213,13 +323,26 @@ public class ServiceFeed extends ServiceBase {
         j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/dronebh/128?ssl=1");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Alguém sabe onde a foto foi tirada");
-        j.put("image", "https://mockup.fluo.site/images/8.png");
+        j.put("image", "");
+
+        g = new JSONArray();
+        g.put(addGalery("the-honest-company-Ua9AK-pZ5cw-unsplash"));
+        g.put(addGalery("wonsung-jang-zmMtb3PtsrE-unsplash"));
+        g.put(addGalery("yann-allegre-1Phy9wlkM6M-unsplash"));
+        g.put(addGalery("yann-allegre-Lbv1852MmOw-unsplash"));
+        j.put("gallery", g);
         j.put("likes", f);
 
         ja.put(j);
 
 
         return ja.toString();
+    }
+
+    public JSONObject addGalery(String i) {
+        JSONObject j = new JSONObject();
+        j.put("image", "https://mockup.fluo.site/images/" + i + ".jpg");
+        return j;
     }
 
 }
