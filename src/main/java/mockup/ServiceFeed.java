@@ -20,59 +20,69 @@ public class ServiceFeed extends ServiceBase {
 
         j = new JSONObject();
         j.put("curtidas", 513);
+        j.put("perfil", "https://mockup.fluo.site/avatar/1.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 542);
+        j.put("perfil", "https://mockup.fluo.site/avatar/2.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 321);
+        j.put("perfil", "https://mockup.fluo.site/avatar/3.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-Grh1pGOrxuE-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 6452);
+        j.put("perfil", "https://mockup.fluo.site/avatar/4.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-KAkljqqXdKs-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 65);
+        j.put("perfil", "https://mockup.fluo.site/avatar/5.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/christiann-koepke-XersifI0JCk-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 5665);
+        j.put("perfil", "https://mockup.fluo.site/avatar/6.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 412);
+        j.put("perfil", "https://mockup.fluo.site/avatar/7.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/daniel-thiele-MG4ap7OlC0w-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 12);
+        j.put("perfil", "https://mockup.fluo.site/avatar/8.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/francisco-delgado-pp4krOAi1Rc-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
+        j.put("perfil", "https://mockup.fluo.site/avatar/9.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/gin-z-fDkXxoiUy6Q-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 3489);
+        j.put("perfil", "https://mockup.fluo.site/avatar/10.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("imagem", "https://mockup.fluo.site/images/harley-davidson-9yx3FyexTOU-unsplash.jpg");
         ja.put(j);
@@ -99,7 +109,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "mauricio");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/mauricio/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/1.png");
         j.put("local", "Los Angeles");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Dia de Chuva");
@@ -131,7 +141,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "gustavo");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/gustavo/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/2.png");
         j.put("local", "Diamond");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Really enjoyed the movie");
@@ -163,7 +173,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "carolina");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carolina/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/3.png");
         j.put("local", "São Paulo");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Entardecer");
@@ -191,7 +201,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "maria");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carolina/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/3.png");
         j.put("local", "NY");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Photo by @awwnuhh42");
@@ -228,7 +238,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "carlos");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carlosroberto/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/4.png");
         j.put("local", "Sapiens Parque");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Sapiens Parque");
@@ -259,7 +269,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "carlos");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/carlosroberto/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/5.png");
         j.put("local", "Nova Suissa");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Setup");
@@ -299,7 +309,7 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "dronebh");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/dronebh/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/6.png");
         j.put("local", "Belo Horizonte");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "O Cine Theatro Brasil, atualmente chamado Cine Theatro Brasil Vallourec, é um prédio histórico de Belo Horizonte");
@@ -339,7 +349,7 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "guilherme");
         j.put("local", "Belo Horizonte");
-        j.put("avatar", "https://i2.wp.com/ui-avatars.com/api/dronebh/128?ssl=1");
+        j.put("avatar", "https://mockup.fluo.site/avatar/7.png");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Alguém sabe onde a foto foi tirada");
         j.put("image", "");
