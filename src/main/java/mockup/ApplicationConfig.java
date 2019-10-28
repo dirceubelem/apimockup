@@ -36,6 +36,7 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceVersion.class);
         resources.add(ServiceFeed.class);
         resources.add(ServiceAccount.class);
+        resources.add(ServiceApp.class);
     }
 
 }
