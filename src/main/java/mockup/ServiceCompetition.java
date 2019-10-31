@@ -58,7 +58,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getMatches(code, day);
-            Cache.setCacheSeconds("competition", "matches" + code + day, j, 10);
+            Cache.setCacheSeconds("competition", "matches" + code + day, j, 20);
             return j.toString();
         }
 
@@ -76,7 +76,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getStandings(code);
-            Cache.setCacheSeconds("competition", "standings" + code, j, 10);
+            Cache.setCacheSeconds("competition", "standings" + code, j, 20);
             return j.toString();
         }
 
