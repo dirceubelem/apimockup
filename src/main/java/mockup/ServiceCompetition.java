@@ -22,6 +22,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getCompetitions();
+            j.put("datejson", DateTime.now().toString("dd/MM/yyyy HH:mm"));
             Cache.setCache("competition", "list", j, 1440);
             return j.toString();
         }
@@ -40,6 +41,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getTeams(id);
+            j.put("datejson", DateTime.now().toString("dd/MM/yyyy HH:mm"));
             Cache.setCache("competition", "teams" + id, j, 1440);
             return j.toString();
         }
@@ -58,6 +60,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getMatches(code, day);
+            j.put("datejson", DateTime.now().toString("dd/MM/yyyy HH:mm"));
             Cache.setCacheSeconds("competition", "matches" + code + day, j, 20);
             return j.toString();
         }
@@ -76,6 +79,7 @@ public class ServiceCompetition {
             return j.toString();
         } else {
             JSONObject j = Football.getStandings(code);
+            j.put("datejson", DateTime.now().toString("dd/MM/yyyy HH:mm"));
             Cache.setCacheSeconds("competition", "standings" + code, j, 20);
             return j.toString();
         }
