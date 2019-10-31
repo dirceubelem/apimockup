@@ -18,6 +18,16 @@ public class Football {
 
     }
 
+    public static JSONObject getTeams(int competition) throws Exception {
+
+        String url = URL + "competitions/" + competition + "/teams";
+
+        JSONObject j = Util.requestGet(url, KEY);
+
+        return j;
+
+    }
+
     public static JSONObject getMatches(String competition, int day) throws Exception {
 
         String url = URL + "competitions/" + competition + "/matches/?matchday=" + day;
