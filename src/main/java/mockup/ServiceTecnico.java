@@ -39,31 +39,31 @@ public class ServiceTecnico {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("foto", "http://apiexemplo.fourtime.com/assets/tecnico/1.png");
+        jo.put("foto", "https://mockup.fluo.site/v1/assets/tecnico/1.png");
         jo.put("nome", "Levir Culpi");
         jo.put("time", "Atético Mineiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "http://apiexemplo.fourtime.com/assets/tecnico/2.png");
+        jo.put("foto", "https://mockup.fluo.site/v1/assets/tecnico/2.png");
         jo.put("nome", "Cruzeiro");
         jo.put("time", "Marcelo Oliveira");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "http://apiexemplo.fourtime.com/assets/tecnico/3.png");
+        jo.put("foto", "https://mockup.fluo.site/v1/assets/tecnico/3.png");
         jo.put("nome", "Luxemburgo");
         jo.put("time", "Flamengo");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "http://apiexemplo.fourtime.com/assets/tecnico/4.png");
+        jo.put("foto", "https://mockup.fluo.site/v1/assets/tecnico/4.png");
         jo.put("nome", "Tite");
         jo.put("time", "Corinthians");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "http://apiexemplo.fourtime.com/assets/tecnico/5.png");
+        jo.put("foto", "https://mockup.fluo.site/v1/assets/tecnico/5.png");
         jo.put("nome", "Ricardo Drubscky");
         jo.put("time", "Fluminense");
         ja.put(jo);
