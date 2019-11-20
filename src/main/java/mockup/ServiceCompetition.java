@@ -51,7 +51,7 @@ public class ServiceCompetition {
     @GET
     @Path("{code}/matches/{day}")
     @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
-    public String getTeams(@PathParam("code") String code, @PathParam("v") int day) throws Exception {
+    public String getTeams(@PathParam("code") String code, @PathParam("day") int day) throws Exception {
 
         Object o = Cache.getCache("competition", "matches" + code + day);
 

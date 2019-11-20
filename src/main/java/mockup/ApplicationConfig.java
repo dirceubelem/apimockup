@@ -38,6 +38,16 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceAccount.class);
         resources.add(ServiceApp.class);
         resources.add(ServiceCompetition.class);
+
+        resources.add(ServiceAmigo.class);
+        resources.add(ServiceEstadio.class);
+        resources.add(ServiceJogador.class);
+        resources.add(ServiceProduto.class);
+        resources.add(ServiceRede.class);
+        resources.add(ServiceTecnico.class);
+        resources.add(ServiceTime.class);
+        resources.add(ServiceUsuario.class);
+
     }
 
 }
