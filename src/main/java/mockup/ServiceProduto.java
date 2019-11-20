@@ -39,31 +39,31 @@ public class ServiceProduto {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("imagem", "https://mockup.fluo.site/v1/assets/produto/1.png");
+        jo.put("imagem", "https://mockup.fluo.site/assets/produto/1.png");
         jo.put("nome", "Coca Cola");
         jo.put("valor", 4.50);
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("imagem", "https://mockup.fluo.site/v1/assets/produto/2.png");
+        jo.put("imagem", "https://mockup.fluo.site/assets/produto/2.png");
         jo.put("nome", "Bis");
         jo.put("valor", 3.75);
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("imagem", "https://mockup.fluo.site/v1/assets/produto/3.png");
+        jo.put("imagem", "https://mockup.fluo.site/assets/produto/3.png");
         jo.put("nome", "Água Mineral");
         jo.put("valor", 2.00);
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("imagem", "https://mockup.fluo.site/v1/assets/produto/4.png");
+        jo.put("imagem", "https://mockup.fluo.site/assets/produto/4.png");
         jo.put("nome", "Waffer");
         jo.put("valor", 2.45);
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("imagem", "https://mockup.fluo.site/v1/assets/produto/5.png");
+        jo.put("imagem", "https://mockup.fluo.site/assets/produto/5.png");
         jo.put("nome", "Açucar");
         jo.put("valor", 5.00);
         ja.put(jo);
