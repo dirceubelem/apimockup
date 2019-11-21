@@ -183,7 +183,7 @@ public class ServiceEvent extends ServiceBase {
                     "        \"email\": \"gustavo.petersen@ticto.com.br\",\n" +
                     "        \"document\": \"124.546.126-58\",\n" +
                     "        \"offer_name\": \"GMX GOLD\",\n" +
-                    "        \"code\": \"2KTVY3\"\n" +
+                    "        \"code\": \"2KTVY4\"\n" +
                     "    },\n" +
                     "    {\n" +
                     "        \"accredited\": false,\n" +
@@ -215,7 +215,7 @@ public class ServiceEvent extends ServiceBase {
                     "        \"email\": \"gustavo.petersen@ticto.com.br\",\n" +
                     "        \"document\": \"124.546.126-58\",\n" +
                     "        \"offer_name\": \"GMX GOLD\",\n" +
-                    "        \"code\": \"2KTVY3\"\n" +
+                    "        \"code\": \"2KTVY4\"\n" +
                     "    },\n" +
                     "    {\n" +
                     "        \"accredited\": true,\n" +
@@ -223,10 +223,10 @@ public class ServiceEvent extends ServiceBase {
                     "        \"email\": \"gustavo.petersen@ticto.com.br\",\n" +
                     "        \"document\": \"124.546.126-58\",\n" +
                     "        \"offer_name\": \"GMX GOLD\",\n" +
-                    "        \"code\": \"2KTVY3\"\n" +
+                    "        \"code\": \"2KTVY4\"\n" +
                     "    }\n" +
                     "]";
-            
+
             return json;
 
         } else {
