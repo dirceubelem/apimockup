@@ -48,6 +48,7 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceTime.class);
         resources.add(ServiceUsuario.class);
         resources.add(ServiceEvent.class);
+        resources.add(ServiceCharacter.class);
 
     }
 
