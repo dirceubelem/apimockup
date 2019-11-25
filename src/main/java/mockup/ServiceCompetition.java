@@ -1,6 +1,7 @@
 package mockup;
 
 import mockup.football.Football;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import javax.ws.rs.GET;
@@ -19,6 +20,20 @@ public class ServiceCompetition {
 
         if (o != null) {
             JSONObject j = (JSONObject) o;
+
+            JSONArray competitions = j.getJSONArray("competitions");
+            JSONArray newCompetitions = new JSONArray();
+
+            for (int i = 0; i < competitions.length(); i++) {
+                JSONObject jo = competitions.getJSONObject(i);
+
+                if(jo.getString("plan").equals("TIER_ONE")){
+                    newCompetitions.put(jo);
+                }
+            }
+
+            j.put("competitions", newCompetitions);
+
             return j.toString();
         } else {
             JSONObject j = Football.getCompetitions();
