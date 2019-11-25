@@ -20,6 +20,9 @@ public class ServiceCompetition {
 
         if (o != null) {
             JSONObject j = (JSONObject) o;
+            return j.toString();
+        } else {
+            JSONObject j = Football.getCompetitions();
 
             JSONArray competitions = j.getJSONArray("competitions");
             JSONArray newCompetitions = new JSONArray();
@@ -33,10 +36,8 @@ public class ServiceCompetition {
             }
 
             j.put("competitions", newCompetitions);
+            j.put("count", newCompetitions.length());
 
-            return j.toString();
-        } else {
-            JSONObject j = Football.getCompetitions();
             j.put("datejson", DateTime.now().toString("dd/MM/yyyy HH:mm:ss"));
             Cache.setCache("competition", "list", j, 1440);
             return j.toString();
