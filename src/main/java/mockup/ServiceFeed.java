@@ -98,11 +98,12 @@ public class ServiceFeed extends ServiceBase {
         JSONObject j;
 
         JSONArray f = new JSONArray();
-        f.put("Cláudio");
+        f.put("Claudio");
         f.put("Gustavo");
         f.put("Carlos");
         f.put("Carolina");
         f.put("Henrique");
+        f.put("Fábio");
 
         JSONArray g;
 
@@ -322,7 +323,6 @@ public class ServiceFeed extends ServiceBase {
         j.put("likes", f);
 
         ja.put(j);
-
 
         f = new JSONArray();
         f.put("Maria");
