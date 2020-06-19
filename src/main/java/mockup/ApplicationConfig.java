@@ -50,6 +50,8 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceEvent.class);
         resources.add(ServiceCharacter.class);
 
+        resources.add(ServiceFriend.class);
+
     }
 
 }
