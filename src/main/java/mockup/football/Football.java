@@ -48,4 +48,15 @@ public class Football {
 
     }
 
+    public static JSONObject getPBH(String id) throws Exception {
+
+        String url = "https://geoservicos.pbh.gov.br/geoserver/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=ide_bhgeo:" + id +
+                "&srsName=EPSG:4326&outputFormat=application%2Fjson";
+
+        JSONObject j = Util.requestGet(url);
+
+        return j;
+
+    }
+
 }
