@@ -60,7 +60,9 @@
 
         this.disabled = true;
         recorder.stopRecording(function (blob) {
-            document.getElementById('gravou').src = '<a href="' + URL.createObjectURL(recorder.getBlob()) + '">baixar</a>';
+            var gravou = document.getElementById('gravou');
+            gravou = '<a href="' + URL.createObjectURL(recorder.getBlob()) + '">baixar</a>';
+            console.log(gravou);
             document.getElementById('start').disabled = false;
         });
     }
