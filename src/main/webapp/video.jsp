@@ -37,7 +37,7 @@
                     ideal: 480
                 }
             },
-            audio: true
+            audio: false
         }).then(function (stream) {
             document.getElementById('video').srcObject = stream;
 
