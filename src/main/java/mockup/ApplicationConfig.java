@@ -5,8 +5,6 @@
  */
 package mockup;
 
-import org.glassfish.jersey.server.ResourceConfig;
-
 import javax.ws.rs.core.Application;
 import java.util.Set;
 
@@ -54,6 +52,7 @@ public class ApplicationConfig extends Application {
         resources.add(ServicePBH.class);
 
         resources.add(ServiceFriend.class);
+        resources.add(ServiceStories.class);
 
     }
 

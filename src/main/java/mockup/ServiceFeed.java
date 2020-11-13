@@ -101,7 +101,7 @@ public class ServiceFeed extends ServiceBase {
         f.put("Claudio");
         f.put("Gustavo");
         f.put("Carlos");
-        f.put("Carolina");
+        f.put("Daniele");
         f.put("Henrique");
         f.put("Fábio");
 
@@ -132,7 +132,7 @@ public class ServiceFeed extends ServiceBase {
         f.put("Maria");
         f.put("Gustavo");
         f.put("Carlos");
-        f.put("Carolina");
+        f.put("Daniele");
         f.put("Henrique");
         f.put("Dirceu");
         f.put("Roberto");
@@ -173,7 +173,7 @@ public class ServiceFeed extends ServiceBase {
 
         j = new JSONObject();
         j.put("id", Guid.getString());
-        j.put("user", "carolina");
+        j.put("user", "Daniele");
         j.put("avatar", "https://mockup.fluo.site/avatar/3.png");
         j.put("local", "São Paulo");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
@@ -226,7 +226,7 @@ public class ServiceFeed extends ServiceBase {
         f.put("Maria");
         f.put("Gustavo");
         f.put("Carlos");
-        f.put("Carolina");
+        f.put("Daniele");
         f.put("Henrique");
         f.put("Dirceu");
         f.put("Roberto");
@@ -295,7 +295,7 @@ public class ServiceFeed extends ServiceBase {
         f.put("Maria");
         f.put("Gustavo");
         f.put("Carlos");
-        f.put("Carolina");
+        f.put("Daniele");
         f.put("Henrique");
         f.put("Dirceu");
         f.put("Roberto");
@@ -335,7 +335,7 @@ public class ServiceFeed extends ServiceBase {
         f.put("Maria");
         f.put("Gustavo");
         f.put("Carlos");
-        f.put("Carolina");
+        f.put("Daniele");
         f.put("Henrique");
         f.put("Dirceu");
         f.put("Roberto");

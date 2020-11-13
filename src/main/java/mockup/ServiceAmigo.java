@@ -62,7 +62,7 @@ public class ServiceAmigo {
         jo.put("avatar", "https://mockup.fluo.site/avatar/6.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "jessica");
+        jo.put("usuario", "daniele");
         jo.put("avatar", "https://mockup.fluo.site/avatar/7.png");
         ja.put(jo);
         jo = new JSONObject();

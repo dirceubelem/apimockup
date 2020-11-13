@@ -11,15 +11,15 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
- *
  * @author dirceubelem
  */
-@Path("rede")
-public class ServiceRede {
+@Path("stories")
+public class ServiceStories {
 
     @Context
     private UriInfo context;
@@ -28,9 +28,6 @@ public class ServiceRede {
     @Context
     private HttpServletResponse response;
 
-    public ServiceRede() {
-    }
-
     @GET
     public String obter() throws Exception {
 
@@ -38,43 +35,53 @@ public class ServiceRede {
 
         JSONArray ja = new JSONArray();
         JSONObject jo = new JSONObject();
-        jo.put("usuario", "humberto");
+        jo.put("user", "humberto");
+        jo.put("live", true);
         jo.put("avatar", "https://mockup.fluo.site/avatar/1.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "gustavo");
+        jo.put("user", "gustavo");
+        jo.put("live", true);
         jo.put("avatar", "https://mockup.fluo.site/avatar/2.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "henrique");
+        jo.put("user", "henrique");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/3.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "junior");
+        jo.put("user", "junior");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/4.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "maria");
+        jo.put("user", "maria");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/5.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "angelo");
+        jo.put("user", "angelo");
+        jo.put("live", true);
         jo.put("avatar", "https://mockup.fluo.site/avatar/6.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "daniele");
+        jo.put("user", "daniele");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/7.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "ana");
+        jo.put("user", "ana");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/8.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "cristina");
+        jo.put("user", "cristina");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/9.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "wagner");
+        jo.put("user", "wagner");
+        jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/10.png");
         ja.put(jo);
         j.put("lista", ja);
