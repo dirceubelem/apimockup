@@ -31,8 +31,6 @@ public class ServiceStories {
     @GET
     public String obter() throws Exception {
 
-        JSONObject j = new JSONObject();
-
         JSONArray ja = new JSONArray();
         JSONObject jo = new JSONObject();
         jo.put("user", "humberto");
@@ -84,9 +82,8 @@ public class ServiceStories {
         jo.put("live", false);
         jo.put("avatar", "https://mockup.fluo.site/avatar/10.png");
         ja.put(jo);
-        j.put("lista", ja);
 
-        return j.toString();
+        return ja.toString();
 
     }
 
