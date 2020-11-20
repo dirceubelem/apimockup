@@ -54,6 +54,8 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceFriend.class);
         resources.add(ServiceStories.class);
 
+        resources.add(ServiceMessage.class);
+
     }
 
 }
