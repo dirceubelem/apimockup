@@ -41,37 +41,37 @@ public class ServiceTime {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/1.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/1.png");
         jo.put("nome", "Atlético Mineiro");
         jo.put("estado", "Minas Gerais");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/2.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/2.png");
         jo.put("nome", "Cruzeiro");
         jo.put("estado", "Minas Gerais");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/3.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/3.png");
         jo.put("nome", "Bahia");
         jo.put("estado", "Bahia");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/4.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/4.png");
         jo.put("nome", "Flamengo");
         jo.put("estado", "Rio de Janeiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/5.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/5.png");
         jo.put("nome", "Botafogo");
         jo.put("estado", "Rio de Janeiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("escudo", "https://mockup.fluo.site/assets/times/6.png");
+        jo.put("escudo", "https://mockup.fluo.app/assets/times/6.png");
         jo.put("nome", "Fluminense");
         jo.put("estado", "Rio de Janeiro");
         ja.put(jo);

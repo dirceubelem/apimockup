@@ -40,31 +40,31 @@ public class ServiceJogador {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/1.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/1.png");
         jo.put("nome", "Neymar");
         jo.put("time", "Barcelona");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/2.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/2.png");
         jo.put("nome", "Fred");
         jo.put("time", "Fluminense");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/3.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/3.png");
         jo.put("nome", "Ronaldinho Gaúcho");
         jo.put("time", "Querétaro Fútbol Club");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/4.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/4.png");
         jo.put("nome", "Victor");
         jo.put("time", "Atlético Mineiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/5.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/5.png");
         jo.put("nome", "Fábio");
         jo.put("time", "Cruzeiro");
         ja.put(jo);
@@ -86,31 +86,31 @@ public class ServiceJogador {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/1.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/1.png");
         jo.put("nome", "Neymar");
         jo.put("time", "Barcelona");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/2.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/2.png");
         jo.put("nome", "Fred");
         jo.put("time", "Fluminense");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/3.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/3.png");
         jo.put("nome", "Ronaldinho Gaúcho");
         jo.put("time", "Querétaro Fútbol Club");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/4.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/4.png");
         jo.put("nome", "Victor");
         jo.put("time", "Atlético Mineiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/jogador/5.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/jogador/5.png");
         jo.put("nome", "Fábio");
         jo.put("time", "Cruzeiro");
         ja.put(jo);

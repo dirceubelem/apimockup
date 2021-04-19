@@ -19,7 +19,7 @@ public class ServiceMessage {
 
         j.put("user", "daniele");
         j.put("name", "Daniele");
-        j.put("avatar", "https://mockup.fluo.site/avatar/2.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/2.png");
 
         JSONArray ja = new JSONArray();
 

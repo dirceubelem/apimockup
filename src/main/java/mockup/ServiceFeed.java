@@ -20,71 +20,71 @@ public class ServiceFeed extends ServiceBase {
 
         j = new JSONObject();
         j.put("curtidas", 513);
-        j.put("perfil", "https://mockup.fluo.site/avatar/1.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/1.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 542);
-        j.put("perfil", "https://mockup.fluo.site/avatar/2.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/2.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 321);
-        j.put("perfil", "https://mockup.fluo.site/avatar/3.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/3.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-Grh1pGOrxuE-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/anita-austvika-Grh1pGOrxuE-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 6452);
-        j.put("perfil", "https://mockup.fluo.site/avatar/4.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/4.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/anita-austvika-KAkljqqXdKs-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/anita-austvika-KAkljqqXdKs-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 65);
-        j.put("perfil", "https://mockup.fluo.site/avatar/5.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/5.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/christiann-koepke-XersifI0JCk-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/christiann-koepke-XersifI0JCk-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 5665);
-        j.put("perfil", "https://mockup.fluo.site/avatar/6.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/6.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 412);
-        j.put("perfil", "https://mockup.fluo.site/avatar/7.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/7.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/daniel-thiele-MG4ap7OlC0w-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/daniel-thiele-MG4ap7OlC0w-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 12);
-        j.put("perfil", "https://mockup.fluo.site/avatar/8.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/8.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/francisco-delgado-pp4krOAi1Rc-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/francisco-delgado-pp4krOAi1Rc-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
-        j.put("perfil", "https://mockup.fluo.site/avatar/9.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/9.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/gin-z-fDkXxoiUy6Q-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/gin-z-fDkXxoiUy6Q-unsplash.jpg");
         ja.put(j);
 
         j = new JSONObject();
         j.put("curtidas", 3489);
-        j.put("perfil", "https://mockup.fluo.site/avatar/10.png");
+        j.put("perfil", "https://mockup.fluo.app/avatar/10.png");
         j.put("data", DateTime.now().toString("dd/MM/yyyy HH:mm"));
-        j.put("imagem", "https://mockup.fluo.site/images/harley-davidson-9yx3FyexTOU-unsplash.jpg");
+        j.put("imagem", "https://mockup.fluo.app/images/harley-davidson-9yx3FyexTOU-unsplash.jpg");
         ja.put(j);
 
         return ja.toString();
@@ -110,11 +110,11 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "mauricio");
-        j.put("avatar", "https://mockup.fluo.site/avatar/1.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/1.png");
         j.put("local", "Los Angeles");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Dia de Chuva");
-        j.put("image", "https://mockup.fluo.site/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/alexey-sviridkin-VXb42m0uM3s-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("alexey-sviridkin-VXb42m0uM3s-unsplash"));
@@ -142,12 +142,12 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "gustavo");
-        j.put("avatar", "https://mockup.fluo.site/avatar/2.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/2.png");
         j.put("local", "Diamond");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Really enjoyed the movie");
 
-        j.put("image", "https://mockup.fluo.site/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/cristina-gottardi-E5UPWEIjvB8-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("cristina-gottardi-E5UPWEIjvB8-unsplash"));
@@ -174,12 +174,12 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "Daniele");
-        j.put("avatar", "https://mockup.fluo.site/avatar/3.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/3.png");
         j.put("local", "São Paulo");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Entardecer");
 
-        j.put("image", "https://mockup.fluo.site/images/ingmar-hoogerhoud-xsGE8wePfeA-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/ingmar-hoogerhoud-xsGE8wePfeA-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("ingmar-hoogerhoud-xsGE8wePfeA-unsplash"));
@@ -202,11 +202,11 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "maria");
-        j.put("avatar", "https://mockup.fluo.site/avatar/3.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/3.png");
         j.put("local", "NY");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Photo by @awwnuhh42");
-        j.put("image", "https://mockup.fluo.site/images/iva-s-lPnRIpkZnEk-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/iva-s-lPnRIpkZnEk-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("iva-s-lPnRIpkZnEk-unsplash"));
@@ -239,11 +239,11 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "carlos");
-        j.put("avatar", "https://mockup.fluo.site/avatar/4.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/4.png");
         j.put("local", "Sapiens Parque");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Sapiens Parque");
-        j.put("image", "https://mockup.fluo.site/images/jeremy-bishop-AXMEntgTSpM-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/jeremy-bishop-AXMEntgTSpM-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("jeremy-bishop-AXMEntgTSpM-unsplash"));
@@ -270,11 +270,11 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "carlos");
-        j.put("avatar", "https://mockup.fluo.site/avatar/5.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/5.png");
         j.put("local", "Nova Suissa");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Setup");
-        j.put("image", "https://mockup.fluo.site/images/milkovi-1MSHtu4pkBM-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/milkovi-1MSHtu4pkBM-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("milkovi-1MSHtu4pkBM-unsplash"));
@@ -310,11 +310,11 @@ public class ServiceFeed extends ServiceBase {
         j = new JSONObject();
         j.put("id", Guid.getString());
         j.put("user", "dronebh");
-        j.put("avatar", "https://mockup.fluo.site/avatar/6.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/6.png");
         j.put("local", "Belo Horizonte");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "O Cine Theatro Brasil, atualmente chamado Cine Theatro Brasil Vallourec, é um prédio histórico de Belo Horizonte");
-        j.put("image", "https://mockup.fluo.site/images/sammy-joonhee-jkANttf0x1A-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/sammy-joonhee-jkANttf0x1A-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("sammy-joonhee-jkANttf0x1A-unsplash"));
@@ -349,10 +349,10 @@ public class ServiceFeed extends ServiceBase {
         j.put("id", Guid.getString());
         j.put("user", "guilherme");
         j.put("local", "Belo Horizonte");
-        j.put("avatar", "https://mockup.fluo.site/avatar/7.png");
+        j.put("avatar", "https://mockup.fluo.app/avatar/7.png");
         j.put("date", DateTime.now().toString("dd/MM/yyyy HH:mm"));
         j.put("description", "Alguém sabe onde a foto foi tirada");
-        j.put("image", "https://mockup.fluo.site/images/the-honest-company-Ua9AK-pZ5cw-unsplash.jpg");
+        j.put("image", "https://mockup.fluo.app/images/the-honest-company-Ua9AK-pZ5cw-unsplash.jpg");
 
         g = new JSONArray();
         g.put(addGalery("the-honest-company-Ua9AK-pZ5cw-unsplash"));
@@ -370,7 +370,7 @@ public class ServiceFeed extends ServiceBase {
 
     public JSONObject addGalery(String i) {
         JSONObject j = new JSONObject();
-        j.put("image", "https://mockup.fluo.site/images/" + i + ".jpg");
+        j.put("image", "https://mockup.fluo.app/images/" + i + ".jpg");
         return j;
     }
 

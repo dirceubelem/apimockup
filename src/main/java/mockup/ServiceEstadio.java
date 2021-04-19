@@ -39,31 +39,31 @@ public class ServiceEstadio {
         JSONObject jo;
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/estadio/1.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/estadio/1.png");
         jo.put("nome", "Mineirão");
         jo.put("estado", "Minas Gerais");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/estadio/2.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/estadio/2.png");
         jo.put("nome", "Independência");
         jo.put("estado", "Minas Gerais");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/estadio/3.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/estadio/3.png");
         jo.put("nome", "Maracanã");
         jo.put("estado", "Rio de Janeiro");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/estadio/4.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/estadio/4.png");
         jo.put("nome", "Morumbi");
         jo.put("estado", "São Paulo");
         ja.put(jo);
 
         jo = new JSONObject();
-        jo.put("foto", "https://mockup.fluo.site/assets/estadio/5.png");
+        jo.put("foto", "https://mockup.fluo.app/assets/estadio/5.png");
         jo.put("nome", "Itaquerão");
         jo.put("estado", "São Paulo");
         ja.put(jo);
