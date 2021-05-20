@@ -44,7 +44,7 @@ public class ServiceFatura {
         JSONObject j = new JSONObject();
         j.put("descricao", descricao);
         j.put("tipo", tipo);
-        j.put("imagem", imagem);
+        j.put("imagem", "https://mockup.fluo.app/fatura/" + imagem);
         j.put("valor", valor);
         j.put("data", data);
         return j;
