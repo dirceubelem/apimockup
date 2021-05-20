@@ -55,6 +55,8 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceStories.class);
 
         resources.add(ServiceMessage.class);
+        resources.add(ServiceFatura.class);
+
 
     }
 
