@@ -23,7 +23,7 @@ public class ServiceVersion extends ServiceBase {
     @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
     public String get() throws Exception {
         JSONObject j = new JSONObject();
-        j.put("version", 1.0);
+        j.put("version", 1.1);
         return j.toString();
     }
 }
