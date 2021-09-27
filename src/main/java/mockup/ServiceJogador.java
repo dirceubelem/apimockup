@@ -11,11 +11,11 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
- *
  * @author dirceubelem
  */
 @Path("jogador")
@@ -29,7 +29,6 @@ public class ServiceJogador {
     private HttpServletResponse response;
 
     @GET
-    @Path("lista")
     public String list() throws Exception {
         response.setContentType("text/html;charset=UTF-8");
 

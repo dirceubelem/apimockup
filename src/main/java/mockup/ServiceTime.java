@@ -29,7 +29,6 @@ public class ServiceTime {
     private HttpServletResponse response;
 
     @GET
-    @Path("lista")
     public String list() throws Exception {
 
         response.setContentType("text/html;charset=UTF-8");

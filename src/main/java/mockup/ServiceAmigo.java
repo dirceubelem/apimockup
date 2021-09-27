@@ -11,11 +11,11 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
- *
  * @author dirceubelem
  */
 @Path("amigos")
@@ -38,19 +38,19 @@ public class ServiceAmigo {
 
         JSONArray ja = new JSONArray();
         JSONObject jo = new JSONObject();
-        jo.put("usuario", "humberto");
+        jo.put("usuario", "joana");
         jo.put("avatar", "https://mockup.fluo.app/avatar/1.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "gustavo");
+        jo.put("usuario", "daniele");
         jo.put("avatar", "https://mockup.fluo.app/avatar/2.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "henrique");
+        jo.put("usuario", "cecilia");
         jo.put("avatar", "https://mockup.fluo.app/avatar/3.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "junior");
+        jo.put("usuario", "marcela");
         jo.put("avatar", "https://mockup.fluo.app/avatar/4.png");
         ja.put(jo);
         jo = new JSONObject();
@@ -58,23 +58,23 @@ public class ServiceAmigo {
         jo.put("avatar", "https://mockup.fluo.app/avatar/5.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "angelo");
+        jo.put("usuario", "angela");
         jo.put("avatar", "https://mockup.fluo.app/avatar/6.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "daniele");
+        jo.put("usuario", "rubens");
         jo.put("avatar", "https://mockup.fluo.app/avatar/7.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "ana");
+        jo.put("usuario", "gustavo");
         jo.put("avatar", "https://mockup.fluo.app/avatar/8.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "cristina");
+        jo.put("usuario", "cristiano");
         jo.put("avatar", "https://mockup.fluo.app/avatar/9.png");
         ja.put(jo);
         jo = new JSONObject();
-        jo.put("usuario", "wagner");
+        jo.put("usuario", "thais");
         jo.put("avatar", "https://mockup.fluo.app/avatar/10.png");
         ja.put(jo);
         j.put("lista", ja);
