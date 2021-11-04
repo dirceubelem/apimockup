@@ -20,7 +20,7 @@ public class ServiceTinder {
 
         j = new JSONObject();
         j.put("name", "Rex");
-        j.put("picture", "https://mockup.fluo.app/finder/f1.jpg");
+        j.put("picture", "https://mockup.fluo.app/assets/tinder/f1.jpg");
         j.put("age", 5);
         j.put("city", "Belo Horizonte");
         j.put("distance", "5 km distância");
@@ -29,7 +29,7 @@ public class ServiceTinder {
 
         j = new JSONObject();
         j.put("name", "Boris");
-        j.put("picture", "https://mockup.fluo.app/finder/f2.jpg");
+        j.put("picture", "https://mockup.fluo.app/assets/tinder/f2.jpg");
         j.put("age", 6);
         j.put("city", "Betim");
         j.put("distance", "19 km distância");
@@ -38,7 +38,7 @@ public class ServiceTinder {
 
         j = new JSONObject();
         j.put("name", "Lenon");
-        j.put("picture", "https://mockup.fluo.app/finder/f3.jpg");
+        j.put("picture", "https://mockup.fluo.app/assets/tinder/f3.jpg");
         j.put("age", 3);
         j.put("city", "Contagem");
         j.put("distance", "9 km distância");
@@ -47,7 +47,7 @@ public class ServiceTinder {
 
         j = new JSONObject();
         j.put("name", "Lili");
-        j.put("picture", "https://mockup.fluo.app/finder/f4.png");
+        j.put("picture", "https://mockup.fluo.app/assets/tinder/f4.png");
         j.put("age", 4);
         j.put("city", "Sabará");
         j.put("distance", "29 km distância");
