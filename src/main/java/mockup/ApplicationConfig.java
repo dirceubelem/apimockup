@@ -57,6 +57,8 @@ public class ApplicationConfig extends Application {
         resources.add(ServiceMessage.class);
         resources.add(ServiceFatura.class);
 
+        resources.add(ServiceTinder.class);
+
 
     }
 
