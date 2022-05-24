@@ -14,10 +14,10 @@ public class ServiceFatura {
     @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
     public String getFatura() {
 
-        JSONObject j = new JSONObject();
-        j.put("vencimento", "15/05/2021");
-        j.put("valor", 3559.17);
-        j.put("limiteDisponivel", 6282.99);
+//        JSONObject j = new JSONObject();
+//        j.put("vencimento", "15/05/2021");
+//        j.put("valor", 3559.17);
+//        j.put("limiteDisponivel", 6282.99);
 
         JSONArray ja = new JSONArray();
         ja.put(getItem("ifood", "Restaurante", "alimentacao.png", "12:11", 20.94));
@@ -36,9 +36,9 @@ public class ServiceFatura {
         ja.put(getItem("Google Storage", "Educação", "educacao.png", "03 Mai", 6.99));
         ja.put(getItem("Ebanx*Spotify", "Serviços", "servicos.png", "28 Abr", 16.9));
 
-        j.put("despesas", ja);
+//        j.put("despesas", ja);
 
-        return j.toString();
+        return ja.toString();
 
     }
 
