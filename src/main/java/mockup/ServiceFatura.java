@@ -5,11 +5,13 @@ import org.json.JSONObject;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 
 @Path("fatura")
 public class ServiceFatura {
 
     @GET
+    @Produces(ApplicationConfig.APPLICATION_JSON_CHARSET_UTF8)
     public String getFatura() {
 
         JSONObject j = new JSONObject();
